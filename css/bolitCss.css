@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --marg:var(--mp-0);
   --pad:var(--mp-0);
   --pad-y:var(--mp-1);
@@ -407,7 +407,7 @@ body:not(.dark-mode) .b-invisible-lm{visibility:hidden!important}
 .b-disabled{position:relative;user-select: none;}
 a[aria-disabled="true"] {pointer-events: none;text-decoration: none;}
 .b-btn.b-disabled:hover,.b-btn:disabled:hover{box-shadow:none}
-.b-btn:not(.b-disabled):hover,.b-button:not(.b-disabled):hover{--bg-color:var(--btn-hov-lm-color)!important;--t-color:var(--btn-hov-t-lm-color)!important}
+.b-btn:not(.b-disabled):hover,.b-button:not(.b-disabled):hover{--bg-color:var(--btn-hov-lm-color)!important;--t-color:var(--btn-hov-t-lm-color)}
 .b-btn-convex:not(.b-disabled):hover{opacity:0.9;}
 .b-btn-convex *,.b-btn-icon *{background-color:transparent;}
 .b-btn-sm{--pad-y:var(--mp-1)!important;--pad-x:var(--mp-2)!important;font-size:var(--f-small)!important}
@@ -2014,97 +2014,97 @@ details:not([open]) > summary .b-hidden-treeview-closed{display: none;}
 .b-round-xxlarge-diag2{border-radius:var(--mp-8) 0}
 @font-face {
     font-family: 'PTAstraSerif';
-    src: url('../webfonts/PTAstraSerif-Regular.woff2') format('woff2'), url('../webfonts/PTAstraSerif-Regular.woff') format('woff'),url('../webfonts/PTAstraSerif-Regular.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/PTAstraSerif-Regular.woff2') format('woff2'), url('../webfonts/PTAstraSerif-Regular.woff') format('woff'),url('../webfonts/PTAstraSerif-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'PTAstraSerif';
-    src: url('../webfonts/PTAstraSerif-Italic.woff2') format('woff2'), url('../webfonts/PTAstraSerif-Italic.woff') format('woff'),url('../webfonts/PTAstraSerif-Italic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/PTAstraSerif-Italic.woff2') format('woff2'), url('../webfonts/PTAstraSerif-Italic.woff') format('woff'),url('../webfonts/PTAstraSerif-Italic.ttf') format('ttf');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'PTAstraSerif';
-    src: url('../webfonts/PTAstraSerif-Bold.woff2') format('woff2'), url('../webfonts/PTAstraSerif-Bold.woff') format('woff'),url('../webfonts/PTAstraSerif-Bold.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/PTAstraSerif-Bold.woff2') format('woff2'), url('../webfonts/PTAstraSerif-Bold.woff') format('woff'),url('../webfonts/PTAstraSerif-Bold.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'PTAstraSerif';
-    src: url('../webfonts/PTAstraSerif-BoldItalic.woff2') format('woff2'), url('../webfonts/PTAstraSerif-BoldItalic.woff') format('woff'),url('../webfonts/PTAstraSerif-BoldItalic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/PTAstraSerif-BoldItalic.woff2') format('woff2'), url('../webfonts/PTAstraSerif-BoldItalic.woff') format('woff'),url('../webfonts/PTAstraSerif-BoldItalic.ttf') format('ttf');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: 'XO_Caliburn';
-    src: url('../webfonts/XO_Caliburn-Regular.woff2') format('woff2'), url('../webfonts/XO_Caliburn-Regular.woff') format('woff'),url('../webfonts/XO_Caliburn-Regular.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Caliburn-Regular.woff2') format('woff2'), url('../webfonts/XO_Caliburn-Regular.woff') format('woff'),url('../webfonts/XO_Caliburn-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'XO_Caliburn';
-    src: url('../webfonts/XO_Caliburn-Italic.woff2') format('woff2'), url('../webfonts/XO_Caliburn-Italic.woff') format('woff'),url('../webfonts/XO_Caliburn-Italic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Caliburn-Italic.woff2') format('woff2'), url('../webfonts/XO_Caliburn-Italic.woff') format('woff'),url('../webfonts/XO_Caliburn-Italic.ttf') format('ttf');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'XO_Caliburn';
-    src: url('../webfonts/XO_Caliburn-Bold.woff2') format('woff2'), url('../webfonts/XO_Caliburn-Bold.woff') format('woff'),url('../webfonts/XO_Caliburn-Bold.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Caliburn-Bold.woff2') format('woff2'), url('../webfonts/XO_Caliburn-Bold.woff') format('woff'),url('../webfonts/XO_Caliburn-Bold.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'XO_Caliburn';
-    src: url('../webfonts/XO_Caliburn-BoldItalic.woff2') format('woff2'), url('../webfonts/XO_Caliburn-BoldItalic.woff') format('woff'),url('../webfonts/XO_Caliburn-BoldItalic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Caliburn-BoldItalic.woff2') format('woff2'), url('../webfonts/XO_Caliburn-BoldItalic.woff') format('woff'),url('../webfonts/XO_Caliburn-BoldItalic.ttf') format('ttf');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: 'XO_Oriel';
-    src: url('../webfonts/XO_Oriel-Regular.woff2') format('woff2'), url('../webfonts/XO_Oriel-Regular.woff') format('woff'),url('../webfonts/XO_Oriel-Regular.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Oriel-Regular.woff2') format('woff2'), url('../webfonts/XO_Oriel-Regular.woff') format('woff'),url('../webfonts/XO_Oriel-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'XO_Oriel';
-    src: url('../webfonts/XO_Oriel-Italic.woff2') format('woff2'), url('../webfonts/XO_Oriel-Italic.woff') format('woff'),url('../webfonts/XO_Oriel-Italic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Oriel-Italic.woff2') format('woff2'), url('../webfonts/XO_Oriel-Italic.woff') format('woff'),url('../webfonts/XO_Oriel-Italic.ttf') format('ttf');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'XO_Oriel';
-    src: url('../webfonts/XO_Oriel-Bold.woff2') format('woff2'), url('../webfonts/XO_Oriel-Bold.woff') format('woff'),url('../webfonts/XO_Oriel-Bold.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Oriel-Bold.woff2') format('woff2'), url('../webfonts/XO_Oriel-Bold.woff') format('woff'),url('../webfonts/XO_Oriel-Bold.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'XO_Oriel';
-    src: url('../webfonts/XO_Oriel-BoldItalic.woff2') format('woff2'), url('../webfonts/XO_Oriel-BoldItalic.woff') format('woff'),url('../webfonts/XO_Oriel-BoldItalic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Oriel-BoldItalic.woff2') format('woff2'), url('../webfonts/XO_Oriel-BoldItalic.woff') format('woff'),url('../webfonts/XO_Oriel-BoldItalic.ttf') format('ttf');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: 'XO_Thames';
-    src: url('../webfonts/XO_Thames-Regular.woff2') format('woff2'), url('../webfonts/XO_Thames-Regular.woff') format('woff'),url('../webfonts/XO_Thames-Regular.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Thames-Regular.woff2') format('woff2'), url('../webfonts/XO_Thames-Regular.woff') format('woff'),url('../webfonts/XO_Thames-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'XO_Thames';
-    src: url('../webfonts/XO_Thames-Italic.woff2') format('woff2'), url('../webfonts/XO_Thames-Italic.woff') format('woff'),url('../webfonts/XO_Thames-Italic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Thames-Italic.woff2') format('woff2'), url('../webfonts/XO_Thames-Italic.woff') format('woff'),url('../webfonts/XO_Thames-Italic.ttf') format('ttf');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'XO_Thames';
-    src: url('../webfonts/XO_Thames-Bold.woff2') format('woff2'), url('../webfonts/XO_Thames-Bold.woff') format('woff'),url('../webfonts/XO_Thames-Bold.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Thames-Bold.woff2') format('woff2'), url('../webfonts/XO_Thames-Bold.woff') format('woff'),url('../webfonts/XO_Thames-Bold.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'XO_Thames';
-    src: url('../webfonts/XO_Thames-BoldItalic.woff2') format('woff2'), url('../webfonts/XO_Thames-BoldItalic.woff') format('woff'),url('../webfonts/XO_Thames-BoldItalic.ttf') format('ttf'), local(sans-serif);
+    src: url('../webfonts/XO_Thames-BoldItalic.woff2') format('woff2'), url('../webfonts/XO_Thames-BoldItalic.woff') format('woff'),url('../webfonts/XO_Thames-BoldItalic.ttf') format('ttf');
     font-weight: bold;
     font-style: italic;
 }
